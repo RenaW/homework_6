@@ -1,0 +1,29 @@
+.wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo_block_style{
+    height: 34px;
+    width:101px;
+    border: 1px solid;
+    font-size:10px;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    margin-top:20px;
+}
+.to_do_list_style{
+    margin-top:40px;
+    background-color: cornsilk;
+}
+li:nth-child(3n){
+    background: #20b2aa;
+    color: #ffd700;
+}
+
+.crossed_text{
+    text-decoration: line-through;
+}
