@@ -30,8 +30,8 @@ function deleteItem() {
     TaskList = [];
     document.getElementById("new_task").value = " ";
 }
-document.getElementById("add_button").addEventListener('click', addItem, false);
-document.getElementById("clear_button").addEventListener('click', deleteItem, false);
+document.getElementById("add_button").addEventListener('click', addItem);
+document.getElementById("clear_button").addEventListener('click', deleteItem);
 
 
 
